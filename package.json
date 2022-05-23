@@ -1,0 +1,38 @@
+{
+  "name": "chai-kerouac-mapper",
+  "version": "0.0.0",
+  "description": "Helpers for testing Kerouac mappers with the Chai assertion library.",
+  "keywords": [
+    "chai",
+    "kerouac"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://jaredhanson.me/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/chai-kerouac-mapper.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/chai-kerouac-mapper/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {},
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^6.1.4",
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
